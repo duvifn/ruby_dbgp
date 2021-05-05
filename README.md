@@ -1,12 +1,12 @@
-This repository contains the fixed `rdbgp2.rb` file, originally shipped with `KomodoIDE`.
+This repository contains a fixed version of `rdbgp2.rb` file, originally shipped with `KomodoIDE`.
 
-In order to use this file, you should install `byebug`  version <= `8.2.5`:
+This script depends on `byebug` version <= `8.2.5`:
 
 `gem install byebug -v 8.2.5`
 
 Of course, you can use `bundler` to manage this specific dependency.
 
-If you use ruby version manager, point to the correct binary in the `shebang` of the script.
+If you use ruby version manager, point to the correct binary in the `shebang` at the top of the script.
 
 When you want to debug you can use it as described in `VDebug` help:
 
