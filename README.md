@@ -6,6 +6,8 @@ In order to use this file, you should install `byebug`  version <= `8.2.5`:
 
 Of course, you can use `bundler` to manage this specific dependency.
 
+If you use ruby version manager, point to the correct binary in the `shebang` of the script.
+
 When you want to debug you can use it as described in `VDebug` help:
 
 ```bash
