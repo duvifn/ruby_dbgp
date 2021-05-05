@@ -184,7 +184,7 @@ module Byebug
       # Replacement for +write+.
       def write(arg)
         @origin.write(arg) unless @state == STREAM_REDIRECT
-        copy(arg) unless @state == STREAM_REDIRECT
+        copy(arg) unless @state == STREAM_DISABLE
       end
       
       # Empty implementation for +close+ in order to better simulate a stream
@@ -1849,6 +1849,12 @@ module Byebug
       @interact_buffer.clear unless response.attributes['more'] == '1'
       
       puts response
+    end
+    
+    def on_eval(argv, data)
+      current_status = @status
+      on_interact(argv, data)
+      @status = current_status
     end
   end
 end
