@@ -9,7 +9,7 @@ Of course, you can use `bundler` to manage this specific dependency.
 When you want to debug you can use it as described in `VDebug` help:
 
 ```bash
-export RUBYDB_LIB=/<path-to-the-folder-of-edbgp2>
+export RUBYDB_LIB=/<path-to-the-**folder**-of-rdbgp2.rb>
 
 # This line is optional
 export RUBYDB_OPTS="PORT=9000 verbose=4 logfile=./t.log"
