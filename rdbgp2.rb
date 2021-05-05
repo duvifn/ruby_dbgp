@@ -1,4 +1,4 @@
-#!/usr/bin/ruby -w
+#!/usr/bin/env ruby
 
 # Copyright (c) 2016 ActiveState Software Inc.
 # DBGP client for debugging Ruby 2.x.
