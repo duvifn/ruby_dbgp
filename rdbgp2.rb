@@ -1,3 +1,5 @@
+#!/usr/share/rvm/rubies/ruby-2.7.3/bin/ruby -w
+
 # Copyright (c) 2016 ActiveState Software Inc.
 # DBGP client for debugging Ruby 2.x.
 #
