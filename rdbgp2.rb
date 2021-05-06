@@ -36,6 +36,8 @@
 #    http://xdebug.org/docs-dbgp.php
 #    
 # This DBGP client was developed against v1.0 of the DBGP protocol.
+require 'rubygems'
+require 'bundler/setup'
 
 require 'base64'
 require 'logger'
